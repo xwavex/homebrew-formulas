@@ -11,6 +11,7 @@ class Rci < Formula
   depends_on 'cmake' => :build
   depends_on 'boost'
   depends_on 'nemomath'
+  depends_on 'rsc'
 
   def install
     # ENV.x11 # if your formula requires any X11 headers
