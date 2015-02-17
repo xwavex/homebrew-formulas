@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbProtocol < Formula
   homepage 'https://code.cor-lab.org/projects/rsb'
-  url 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git, :branch => '0.10'
-  version '0.10'
+  url 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git, :branch => '0.11'
+  version '0.11'
   head 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git
 
   option :universal

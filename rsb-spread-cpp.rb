@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbSpreadCpp < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-service-bus'
-  url 'https://code.cor-lab.org/git/rsb.git.spread-cpp', :using => :git, :branch => '0.10'
-  version '0.10'
+  url 'https://code.cor-lab.org/git/rsb.git.spread-cpp', :using => :git, :branch => '0.11'
+  version '0.11'
   head 'https://code.cor-lab.org/git/rsb.git.spread-cpp', :using => :git
 
   option :universal
