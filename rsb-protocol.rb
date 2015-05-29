@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbProtocol < Formula
   homepage 'https://code.cor-lab.org/projects/rsb'
-  url 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git, :branch => '0.11'
-  version '0.11'
+  url 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git, :branch => '0.12'
+  version '0.12'
   head 'https://code.cor-lab.org/git/rsb.git.protocol', :using => :git
 
   option :universal
@@ -14,6 +14,7 @@ class RsbProtocol < Formula
 
   def install
     ENV.universal_binary if build.universal?
+    ENV.no_optimization
 
     system "cmake", ".", *std_cmake_args
     system "make install"
