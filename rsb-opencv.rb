@@ -2,8 +2,8 @@ require 'formula'
 
 class RsbOpencv < Formula
   #homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/tools/rsb-gstreamer-integration'
-  url 'https://code.cor-lab.de/svn/rsbvideoreceiver/branches/0.10', :using => :svn
-  version '0.10'
+  url 'https://code.cor-lab.de/svn/rsbvideoreceiver/branches/refactoring', :using => :svn
+  version '0.12'
   head 'https://code.cor-lab.org/svn/rsbvideoreceiver/trunk', :using => :svn
 
   option :universal

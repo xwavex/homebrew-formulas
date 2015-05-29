@@ -2,8 +2,8 @@ require 'formula'
 
 class Rsb < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-service-bus'
-  url 'https://code.cor-lab.org/git/rsb.git.cpp', :using => :git, :branch => '0.11'
-  version '0.11'
+  url 'https://code.cor-lab.org/git/rsb.git.cpp', :using => :git, :branch => '0.12'
+  version '0.12'
   head 'https://code.cor-lab.org/git/rsb.git.cpp', :using => :git
 
   option :universal
