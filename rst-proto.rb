@@ -12,7 +12,8 @@ class RstProto < Formula
   depends_on 'rsc'
   depends_on 'protobuf'
   depends_on :python
-  depends_on :python => ['google.protobuf' => 'protobuf']
+  # FIX-ME this no longer works with brew
+  #depends_on :python => ['google.protobuf' => 'protobuf']
 
   def install
     ENV.universal_binary if build.universal?
