@@ -9,7 +9,7 @@ class RstConverters < Formula
   option :universal
 
   depends_on 'cmake' => :build
-  depends_on 'rci' => :recommended
+  depends_on 'rci' => :optional
   depends_on 'opencv' => :optional
   depends_on 'rsb'
   depends_on 'rst-proto'
