@@ -4,7 +4,7 @@ homebrew-formulas for the RSX robotics architecture
 This repository contains Homebrew formulas for the RSX integration architecture and additional robotics software. 
 The main focus is to support the installation of the Robotics Service Bus (RSB), accompanying libraries and tools.  
 
-Further information about RSB can be found [here](https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-service-bus).
+Further information about RSB can be found [here](http://docs.cor-lab.de//rsb-manual/trunk/html/index.html).
 
 How do I install RSB using these formula?
 -----------------------------------------
