@@ -3,7 +3,7 @@ require 'formula'
 class Spread < Formula
   homepage 'http://www.spread.org/'
   url 'http://www.spread.org/download/spread-src-4.4.0.tar.gz?FILE=spread-src-4.4.0.tar.gz&name=McTester&company=homebrew&email=foo@example.org'
-  sha1 '944d31501517c892a446fa484a7fd928e9ede941'
+  sha256 '5beb09fe27cdb8332075847af0b9288e58ba8cdcf5c7cc685fd57c6b65680f4d'
   version '4.4.0'
 
   option :universal
