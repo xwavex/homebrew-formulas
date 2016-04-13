@@ -10,10 +10,6 @@ class RsbagToolsCl < Formula
   def install
     bin.install 'rsbag'
     ln_s bin/'rsbag', bin/'rsbag0.13'
- #   ln_s bin/'rsbag', bin/'bag-cat'
- #   ln_s bin/'rsbag', bin/'bag-info'
- #   ln_s bin/'rsbag', bin/'bag-merge'
- #   ln_s bin/'rsbag', bin/'bag-record'
   end
 
   def test
