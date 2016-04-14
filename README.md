@@ -10,8 +10,8 @@ How do I install RSB using these formula?
 -----------------------------------------
 Just `brew tap corlab/homebrew-formulas` and then `brew install <formula>`. For RSB:
 
-
-    brew install rsb
+    brew tap corlab/homebrew-formulas
+    brew install rsb-tools-cpp
 
 If the formula conflicts with one from mxcl/master or another tap, you can `brew install corlab/homebrew-formulas/<formula>`.
 
