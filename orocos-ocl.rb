@@ -4,6 +4,7 @@ class OrocosOcl < Formula
 
   depends_on "orocos-rtt"
   depends_on "orocos-log4cpp"
+  depends_on "readline"
   depends_on "cmake"   => :build
 
   def install
