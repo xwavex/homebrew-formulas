@@ -7,7 +7,9 @@ class OrocosOcl < Formula
   depends_on "cmake"   => :build
 
   def install
-  	args = std_cmake_args
+  	args = std_cmake_args+ %W[
+      -DBUILD_LUA_RTT=OFF
+    ]
     system "cmake", ".", *args
     system "make install"
   end
