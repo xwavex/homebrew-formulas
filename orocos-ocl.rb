@@ -3,6 +3,7 @@ class OrocosOcl < Formula
   head "https://github.com/orocos-toolchain/ocl.git"
 
   depends_on "orocos-rtt"
+  depends_on "orocos-log4cpp"
   depends_on "cmake"   => :build
 
   def install
