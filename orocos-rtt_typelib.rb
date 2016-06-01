@@ -1,4 +1,4 @@
-class OrocosRtt_typelib < Formula
+class OrocosRttTypelib < Formula
   homepage "http://www.orocos.org"
   head "https://github.com/orocos-toolchain/rtt_typelib.git"
 
