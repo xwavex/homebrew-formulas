@@ -4,7 +4,7 @@ class OrocosTypelib < Formula
 
   depends_on "antlr"
   depends_on "libxml2"
-  depends_on "utilmm"
+  depends_on "orocos-utilmm"
   depends_on "cmake"   => :build
 
   def install
