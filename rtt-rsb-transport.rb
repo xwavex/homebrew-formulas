@@ -10,7 +10,6 @@ class RttRsbTransport < Formula
     args = std_cmake_args+ %W[
       -DCMAKE_MODULE_PATH=/usr/local/share/cmake/Modules
     ]
-  	args = std_cmake_args
     system "cmake", ".", *args
     system "make install"
   end
