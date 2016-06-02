@@ -3,7 +3,7 @@ class RstRt < Formula
   head "https://github.com/corlab/rst-rt"
 
   # cmake might fail to locate eigen3 modules...
-  depends_on "eigen3"
+  depends_on "eigen"   => "2.91.0"
   depends_on "cmake"   => :build
 
   def install
