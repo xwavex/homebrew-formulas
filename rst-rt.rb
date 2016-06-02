@@ -8,7 +8,7 @@ class RstRt < Formula
   # because cmake might fail to locate eigen3 modules:
   def install
     args = std_cmake_args+ %W[
-      -DCMAKE_MODULE_PATH=/usr/local/share/cmake/Modules
+      -DCMAKE_MODULE_PATH=#{HOMEBREW_PREFIX}/share/cmake/Modules
     ]
     system "cmake", ".", *args
     system "make install"
