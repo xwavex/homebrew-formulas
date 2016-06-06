@@ -1,6 +1,6 @@
 class RstRt < Formula
   homepage "https://toolkit.cit-ec.uni-bielefeld.de"
-  head "https://github.com/corlab/rst-rt.git"
+  url "https://github.com/corlab/rst-rt.git"
 
   depends_on "eigen"
   depends_on "cmake"   => :build

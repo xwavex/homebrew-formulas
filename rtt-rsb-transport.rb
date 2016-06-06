@@ -1,6 +1,6 @@
 class RttRsbTransport < Formula
   homepage "https://toolkit.cit-ec.uni-bielefeld.de"
-  head "https://github.com/corlab/rtt-rsb-transport.git"
+  url "https://github.com/corlab/rtt-rsb-transport.git"
   
   depends_on "rst-rt"
   depends_on "rst-proto"
