@@ -3,7 +3,7 @@ require 'formula'
 class RsbToolsCl < Formula
   homepage 'https://code.cor-lab.org/projects/rsb'
   url 'https://ci.cor-lab.org/job/rsb-tools-cl-0.13-macos/label=MAC_OS_mavericks_64bit/lastSuccessfulBuild/artifact/build/rsb', :using => :nounzip
-  sha256 'ebb199b153b661ca1d182e4cbc1ad4e0cf31003a7bb87aee7c06a82e82a7b549'
+  sha256 '002c8d6b4e7f8610d46eb2f62443233e8f91b141ba96e7a2991e8fa9f34f4282'
   version '0.13'
 
   def install
