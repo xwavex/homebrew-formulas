@@ -4,6 +4,7 @@ class RttDotService < Formula
 
   depends_on "orocos-rtt"
   depends_on "orocos-ocl"
+  depends_on "graphviz"
   depends_on "cmake"   => :build
 
   def install
