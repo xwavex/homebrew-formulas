@@ -2,13 +2,13 @@ require 'formula'
 
 class RsbToolsCl < Formula
   homepage 'https://code.cor-lab.org/projects/rsb'
-  url 'https://ci.cor-lab.org/job/rsb-tools-cl-0.13-macos/label=MAC_OS_mavericks_64bit/lastSuccessfulBuild/artifact/build/rsb', :using => :nounzip
-  sha256 '84c594ae44af97620a1d636e4f68cb13e579c9d5fcd7da9637ae024440a15f54'
-  version '0.13'
+  url 'https://ci.cor-lab.org/job/rsb-tools-cl-0.15-macos/label=MAC_OS_mavericks_64bit/lastSuccessfulBuild/artifact/build/rsb', :using => :nounzip
+  sha256 '8a7194ae578ce25d2b47ce2303fdc4cf49661fe818e70dff765ea3cc768a71b5'
+  version '0.15'
 
   def install
     bin.install 'rsb'
-    ln_s bin/'rsb', bin/'rsb0.13'
+    ln_s bin/'rsb', bin/'rsb0.15'
   end
 
   def test

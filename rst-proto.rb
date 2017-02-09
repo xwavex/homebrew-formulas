@@ -2,8 +2,8 @@ require 'formula'
 
 class RstProto < Formula
   homepage 'https://toolkit.cit-ec.uni-bielefeld.de/components/generic/robotics-system-types'
-  url 'https://code.cor-lab.de/git/rst.git.proto.git', :using => :git, :branch => '0.13'
-  version '0.13'
+  url 'https://code.cor-lab.de/git/rst.git.proto.git', :using => :git, :branch => '0.15'
+  version '0.15'
   head 'https://code.cor-lab.de/git/rst.git.proto.git', :using => :git
 
   option :universal
