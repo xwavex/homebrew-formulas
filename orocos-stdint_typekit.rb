@@ -1,6 +1,8 @@
 class OrocosStdintTypekit < Formula
   homepage "http://www.orocos.org"
+  url "https://github.com/orocos-toolchain/stdint_typekit.git"
   head "https://github.com/orocos-toolchain/stdint_typekit.git"
+  version "2.9"
 
   depends_on "orocos-rtt"
   depends_on "cmake"   => :build
