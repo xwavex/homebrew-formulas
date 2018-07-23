@@ -1,12 +1,8 @@
-class RttCoreExtensions < Formula
-  homepage "https://github.com/corlab/rtt-core-extensions"
-  url "https://github.com/corlab/rtt-core-extensions.git"
-  head "https://github.com/corlab/rtt-core-extensions.git"
+class RstRt < Formula
+  homepage "https://toolkit.cit-ec.uni-bielefeld.de"
+  url "https://github.com/corlab/rst-rt.git"
 
   depends_on "eigen"
-  depends_on "orocos-rtt"
-  depends_on "orocos-ocl"
-  depends_on "rst-rt"
   depends_on "cmake"   => :build
 
   # because cmake might fail to locate eigen3 modules:

@@ -3,7 +3,7 @@ class KdlTypekit < Formula
   url 'https://github.com/corlab/rtt_geometry.git', :using => :git, :branch => 'indigo-devel'
   head 'https://github.com/corlab/rtt_geometry.git', :using => :git
 
-  depends_on "corlab/formulas/orocos-kdl"
+  depends_on "orocos-kdl"
   depends_on "orocos-rtt"
   depends_on "cmake"   => :build
 
